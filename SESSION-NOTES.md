@@ -1,4 +1,4 @@
-# CurvyWalls13 — Session Notes
+# df-curvy-walls — Session Notes
 
 ## What this is
 Fork of `df-curvy-walls` FoundryVTT module (Bezier curve wall drawing tools), originally by flamewave000, forked from N7Huntsman.
@@ -6,14 +6,14 @@ Fork of `df-curvy-walls` FoundryVTT module (Bezier curve wall drawing tools), or
 ## What's been done
 
 ### Repo setup
-- **Forked** from `N7Huntsman/CurvyWalls13` → `MarkPearce/CurvyWalls13` → **transferred to `rune-goblin/CurvyWalls13`**
-- **Local repo moved** to `/Users/mark/Documents/repos/runegoblin/CurvyWalls13`
+- **Forked** from `N7Huntsman/df-curvy-walls` → `MarkPearce/df-curvy-walls` → **transferred to `rune-goblin/df-curvy-walls`**
+- **Local repo moved** to `/Users/mark/Documents/repos/runegoblin/df-curvy-walls`
 - **Remotes configured:**
-  - `origin` → `git@github.com:rune-goblin/CurvyWalls13.git`
-  - `upstream` → `git@github.com:N7Huntsman/CurvyWalls13.git`
+  - `origin` → `git@github.com:rune-goblin/df-curvy-walls.git`
+  - `upstream` → `git@github.com:N7Huntsman/df-curvy-walls.git`
 
 ### Files created/modified (uncommitted)
-- **`module.json`** — Updated manifest/download/url/bugs/readme/changelog URLs to point to `rune-goblin/CurvyWalls13`. Replaced `{{sources}}`/`{{css}}` template placeholders with actual paths: `["src/df-curvy-walls.mjs"]` and `["css/curvy-walls-base.css", "css/curvy-walls-icons.css"]`
+- **`module.json`** — Updated manifest/download/url/bugs/readme/changelog URLs to point to `rune-goblin/df-curvy-walls`. Replaced `{{sources}}`/`{{css}}` template placeholders with actual paths: `["src/df-curvy-walls.mjs"]` and `["css/curvy-walls-base.css", "css/curvy-walls-icons.css"]`
 - **`common/Settings.mjs`** — Fetched from original monorepo (`flamewave000/dragonflagon-fvtt`). Was a shared utility missing from the fork.
 - **`css/curvy-walls-base.css`** — Compiled from `.scss` (Foundry can't load SCSS directly)
 - **`css/curvy-walls-icons.css`** — Compiled from `.scss`
@@ -21,7 +21,7 @@ Fork of `df-curvy-walls` FoundryVTT module (Bezier curve wall drawing tools), or
 
 ### Symlink for local testing
 ```bash
-ln -sf /Users/mark/Documents/repos/runegoblin/CurvyWalls13 "/Users/mark/Library/Application Support/FoundryVTT/Data/modules/df-curvy-walls"
+ln -sf /Users/mark/Documents/repos/runegoblin/df-curvy-walls "/Users/mark/Library/Application Support/FoundryVTT/Data/modules/df-curvy-walls"
 ```
 
 ## Current blocker
